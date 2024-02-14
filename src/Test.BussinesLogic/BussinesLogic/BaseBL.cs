@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Test.Model;
 
 namespace Test.BussinesLogic

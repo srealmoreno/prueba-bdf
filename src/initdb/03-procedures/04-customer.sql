@@ -21,7 +21,7 @@ BEGIN
     -- 2. Create address
     --DECLARE @addressId BIGINT;
     --EXEC @addressId = spCreateAddress @description = @address, @customerId = @customerId;
-   
+
     SELECT @customerId
     RETURN @customerId;
 END

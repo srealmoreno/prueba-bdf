@@ -4,21 +4,21 @@ GO
 --  Listado de Clientes con sus direcciones y prestamos asociados, cuyos prestamos
 --  estén activos y el plazo de financiamiento sea mayo a 36 meses
 CREATE VIEW test.vwCustomerLoan AS
-SELECT 
-    c.customerId, 
-    c.idNumber, 
-    c.idType, 
-    c.firstName, 
-    c.secondName, 
-    c.firstLastName, 
-    c.secondLastName, 
-    a.description, 
-    l.loanId, 
-    l.loanType, 
-    l.startDate, 
-    l.endDate, 
-    l.requestedAmount, 
-    l.approvedAmount, 
+SELECT
+    c.customerId,
+    c.idNumber,
+    c.idType,
+    c.firstName,
+    c.secondName,
+    c.firstLastName,
+    c.secondLastName,
+    a.description,
+    l.loanId,
+    l.loanType,
+    l.startDate,
+    l.endDate,
+    l.requestedAmount,
+    l.approvedAmount,
     l.financingTerm
 FROM
     test.Customer c

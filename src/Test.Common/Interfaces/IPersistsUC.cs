@@ -1,4 +1,4 @@
-﻿namespace Test.Common.Interfaces
+namespace Test.Common.Interfaces
 {
     public interface IPersistsUC<T, U> where T : class
     {

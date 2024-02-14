@@ -3,7 +3,7 @@ GO
 
 -- Cantidad de Prestamos por estado y moneda con monto mayo a 10,000 dólares
 CREATE VIEW test.vwLoanStateCurrency AS
-SELECT 
+SELECT
     cu.code,
     cu.description,
     cu.symbol,

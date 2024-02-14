@@ -26,7 +26,7 @@ CREATE PROCEDURE test.spGetAddresses
 AS
 BEGIN
     SELECT *
-    FROM 
+    FROM
         Address a
     WHERE
         a.deletedAt IS NULL;
@@ -39,7 +39,7 @@ CREATE PROCEDURE test.spGetAddressById
 AS
 BEGIN
     SELECT *
-    FROM 
+    FROM
         Address a
     WHERE
         a.addressId = @addressId
@@ -54,7 +54,7 @@ CREATE PROCEDURE test.spGetAddressByCustomerId
 AS
 BEGIN
     SELECT *
-    FROM 
+    FROM
         Address a
     WHERE
         a.customerId = @customerId

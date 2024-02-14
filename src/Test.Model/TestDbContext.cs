@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -15,7 +15,7 @@ namespace Test.Model
         public virtual DbSet<Entities.Address> Addresses { get; set; }
         public virtual DbSet<Entities.Loan> Loans { get; set; }
         public virtual DbSet<Entities.Currency> Currencies { get; set; }
-        
+
         public TestDbContext(String connectionString) : base(connectionString)
         {
             /*Configuration.AutoDetectChangesEnabled = true;

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,7 +13,7 @@ namespace Test.Web
     public partial class editar_cliente : System.Web.UI.Page
     {
         long idCustomer;
-        
+
         protected void Page_Load(object sender, EventArgs e)
         {
             string idParam = Request.QueryString["id"];
@@ -86,7 +86,7 @@ namespace Test.Web
             using (CustomerServiceClient client = new CustomerServiceClient())
             {
                 var customer = client.GetById(idCustomer);
-                
+
                 customer.FirstName = TxtFirstName.Text;
                 customer.SecondName = TxtSecondName.Text;
                 customer.FirstLastName = TxtFirstLastName.Text;
@@ -98,7 +98,7 @@ namespace Test.Web
                 customer.Address.FirstOrDefault().Country = TxtCountry.Text;
                 customer.Address.FirstOrDefault().Neighborhood = TxtNeighborhood.Text;
                 customer.Address.FirstOrDefault().Description = TxtAddress.Text;
-                
+
                 client.Put(idCustomer, customer);
 
                 Response.Redirect("/");
