@@ -131,7 +131,7 @@ para detalles
    ![Visualización de clientes](images/visualizacion-clientes.png)
    > En esta vista se pueden ver los clientes registrados en la base de datos,
 
-![Visualización de clientes](images/visualizacion-clientes-movil.png)
+   ![Visualización de clientes](images/visualizacion-clientes-movil.png)
    > La vista es responsive, se adapta a dispositivos móviles.
 
 2. Agregar cliente:
