@@ -10,22 +10,21 @@
     <DockerServiceName>mssql</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="mssql\**" />
   </ItemGroup>
   <ItemGroup>
     <None Include="docker-compose.yml" />
-    <None Include="init.db\01-database\01-test.sql" />
-    <None Include="init.db\02-tables\01-currency.sql" />
-    <None Include="init.db\02-tables\02-customer.sql" />
-    <None Include="init.db\02-tables\03-address.sql" />
-    <None Include="init.db\02-tables\04-loan.sql" />
-    <None Include="init.db\03-procedures\01-currency.sql" />
-    <None Include="init.db\03-procedures\02-address.sql" />
-    <None Include="init.db\03-procedures\03-loan.sql" />
-    <None Include="init.db\03-procedures\04-customer.sql" />
-    <None Include="init.db\04-views\04-customerLoan.sql" />
-    <None Include="init.db\04-views\05-loanStateCurrency.sql" />
-    <None Include="init.db\05-data\02-currency.sql" />
-    <None Include="init.db\entrypoint.sh" />
+    <None Include="initdb\01-database\01-test.sql" />
+    <None Include="initdb\02-tables\01-currency.sql" />
+    <None Include="initdb\02-tables\02-customer.sql" />
+    <None Include="initdb\02-tables\03-address.sql" />
+    <None Include="initdb\02-tables\04-loan.sql" />
+    <None Include="initdb\03-procedures\01-currency.sql" />
+    <None Include="initdb\03-procedures\02-address.sql" />
+    <None Include="initdb\03-procedures\03-loan.sql" />
+    <None Include="initdb\03-procedures\04-customer.sql" />
+    <None Include="initdb\04-views\04-customerLoan.sql" />
+    <None Include="initdb\04-views\05-loanStateCurrency.sql" />
+    <None Include="initdb\05-data\02-currency.sql" />
+    <None Include="initdb\entrypoint.sh" />
   </ItemGroup>
 </Project>
