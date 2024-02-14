@@ -23,18 +23,11 @@ Para poder ejecutar el proyecto necesitas tener instalado:
 
 ### 🔧 Instalando
 
-Clona el repositorio en tu máquina local
+Clona el repositorio en tu máquina local (carpeta `src`)
 
 ```bash
 git clone https://github.com/srealmoreno/prueba-bdf
-cd prueba-bdf
 ```
-
-## ⚙️ Running the tests
-
-Por el momento no hay tests.
-
-<!-- requerimientos de la prueba -->
 
 ## 📦 Descripción de la prueba
 
@@ -112,10 +105,10 @@ en el orden que se encuentran.
 
 Por favor lee [CONTRIBUTING](CONTRIBUTING.md) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
 
-## 📌 Versionado
+## 📌 Veersionado
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available,
-see the [tags on this repository][tags].
+Usamos [SemVer](http://semver.org/) para el versionado. Para las versiones
+disponibles, mira los [tags en este repositorio][tags].
 
 ## ✒️ Autores
 
@@ -139,8 +132,7 @@ para detalles
    > En esta vista se pueden ver los clientes registrados en la base de datos,
 
 ![Visualización de clientes](images/visualizacion-clientes-movil.png)
-
-> La vista es responsive, se adapta a dispositivos móviles.
+   > La vista es responsive, se adapta a dispositivos móviles.
 
 2. Agregar cliente:
    ![Agregar cliente](images/agregar-cliente.png)
