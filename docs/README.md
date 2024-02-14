@@ -132,7 +132,7 @@ Ver también la lista de todos los [contribuyentes][contributors] que han partic
 
 ## 📄 Licencia
 
-Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE.md](../LICENSE.md)
+Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE](../LICENSE.md)
 para detalles
 
 ## 🎁 Reconocimientos
