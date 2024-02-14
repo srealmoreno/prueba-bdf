@@ -2,7 +2,7 @@
 [wiki]: https://github.com/srealmoreno/prueba-bdf/wiki
 [contributors]: https://github.com/srealmoreno/prueba-bdf/graphs/contributors
 
-# Prueba BDF
+# Prueba BDF [![Codacy Badge](https://app.codacy.com/project/badge/Grade/76bc68963eb546fc8cd40b79d6327821)](https://app.codacy.com/gh/srealmoreno/prueba-bdf/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
 Pequeña prueba fullstack para aplicar al puesto de
 analista de sistema en BDF realizada en ASP.NET Web Forms (Responsive) y WCF Services.
