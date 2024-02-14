@@ -154,7 +154,7 @@ request.
 
 - Create a personal fork of the project on Github.
 - Clone the fork on your local machine. Your remote repo on Github is called `origin`.
-  - `git clone https://github.com/<your-username>/{{repo}}`
+  - `git clone https://github.com/<your-username>/prueba-bdf`
 - Add the original repository as a remote called `upstream`.
   - `git remote add upstream https://github.com/srealmoreno/prueba-bdf`
 - If you created your fork a while ago be sure to pull upstream changes into your
