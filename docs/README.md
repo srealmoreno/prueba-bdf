@@ -63,8 +63,14 @@ para no tener que instalar SQL Server en mi máquina local.
 Puedes hechar un vistazo al archivo `docker-compose.yml` para ver la configuración
 
 1. Abre la solución en Visual Studio
-2. Compila la solución
-3. Ejecuta el proyecto
+2. Actualiza paquetes de NuGet
+   En la consola de administrador de paquetes de NuGet ejecuta:
+   
+   ```bash	
+   Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -r
+   ```
+3. Establece `docker-compose`, `Test.Api` y `Test.Web` como 
+   [múltiples proyectos de inicio](https://learn.microsoft.com/en-us/visualstudio/ide/how-to-set-multiple-startup-projects?view=vs-2022)
 
 > Probablemente fallará la conexión a la base de datos, esto sucede porque
 > el contenedor de SQL server no ha finalizado su inicialización.
@@ -92,6 +98,14 @@ en el orden que se encuentran.
 
 1. Abre la solución en Visual Studio
 2. Modifica la cadena de conexión en el archivo `Test.Api/Web.config`
+3. Actualiza paquetes de NuGet
+   En la consola de administrador de paquetes de NuGet ejecuta:
+   
+   ```bash	
+   Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -r
+   ```
+4. Establece `Test.Api` y `Test.Web` como 
+   [múltiples proyectos de inicio](https://learn.microsoft.com/en-us/visualstudio/ide/how-to-set-multiple-startup-projects?view=vs-2022)
 
 ## 🛠️ Construido con
 
