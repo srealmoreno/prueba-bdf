@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      SA_PASSWORD: "wd+v}!-NjQJLrc0TX^Om[dxyO"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "14333:1433"
+    volumes:
+      - ./initdb:/docker-entrypoint-initdb.d
+      #- mssql-data:/var/opt/mssql
+    entrypoint: [ "/docker-entrypoint-initdb.d/entrypoint.sh" ]
+
+volumes:
+    mssql-data:

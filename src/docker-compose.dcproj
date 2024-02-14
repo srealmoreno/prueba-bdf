@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" Sdk="Microsoft.Docker.Sdk">
+  <PropertyGroup Label="Globals">
+    <ProjectVersion>2.1</ProjectVersion>
+    <DockerTargetOS>Linux</DockerTargetOS>
+    <DockerPublishLocally>True</DockerPublishLocally>
+    <ProjectGuid>9afd1399-7f9e-4116-9158-a2e3479704d2</ProjectGuid>
+    <DockerLaunchAction>None</DockerLaunchAction>
+    <DockerServiceUrl>http://{ServiceIPAddress}</DockerServiceUrl>
+    <DockerServiceName>mssql</DockerServiceName>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="mssql\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="docker-compose.yml" />
+    <None Include="init.db\01-database\01-test.sql" />
+    <None Include="init.db\02-tables\01-currency.sql" />
+    <None Include="init.db\02-tables\02-customer.sql" />
+    <None Include="init.db\02-tables\03-address.sql" />
+    <None Include="init.db\02-tables\04-loan.sql" />
+    <None Include="init.db\03-procedures\01-currency.sql" />
+    <None Include="init.db\03-procedures\02-address.sql" />
+    <None Include="init.db\03-procedures\03-loan.sql" />
+    <None Include="init.db\03-procedures\04-customer.sql" />
+    <None Include="init.db\04-views\04-customerLoan.sql" />
+    <None Include="init.db\04-views\05-loanStateCurrency.sql" />
+    <None Include="init.db\05-data\02-currency.sql" />
+    <None Include="init.db\entrypoint.sh" />
+  </ItemGroup>
+</Project>
