@@ -10,7 +10,7 @@ con estilos **css** y **js** propios, sin librerías de terceros.
 
 ## 🚀 Comenzando
 
-Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas. Consulta Despliegue para conocer como desplegar el proyecto.
+Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas. Consulta [Despliegue](#-despliegue) para conocer como desplegar el proyecto.
 
 ### 📋 Pre-requisitos
 
@@ -23,7 +23,7 @@ Para poder ejecutar el proyecto necesitas tener instalado:
 
 ### 🔧 Instalando
 
-Clona el repositorio en tu máquina local (carpeta `src`)
+Clona el repositorio en tu máquina local y accede a la carpeta `src`
 
 ```bash
 git clone https://github.com/srealmoreno/prueba-bdf
@@ -35,7 +35,7 @@ git clone https://github.com/srealmoreno/prueba-bdf
    Ver los scripts en la carpeta [`initdb`](../src/initdb/)
 
    - **docker-compose.yml**: Construye un contenedor con SQL Server
-     y importa los scripts de la carpeta `initdb` para inicializar la base de datos.
+     e importa los scripts de la carpeta `initdb` para inicializar la base de datos.
 
 2. WCF Services
    El backend fue desarrollado con 4 capas:
