@@ -40,7 +40,7 @@ jobs:
     steps:
       # Checkout the repository to the GitHub Actions runner
       - name: ⤵️ Check out code from GitHub
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       # Execute Codacy Analysis CLI and generate a SARIF output with the security issues identified during the analysis
       - name: 🚀 Run Codacy Analysis CLI
